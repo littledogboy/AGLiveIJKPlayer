@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64404D75F62D61E62FAD503C /* libPods-AGLiveIJKPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D347E9F8B9B6C21D783AFB58 /* libPods-AGLiveIJKPlayer.a */; };
+		6C40B4321DD28E070036987B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C40B4311DD28E070036987B /* main.m */; };
+		6C40B4351DD28E070036987B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C40B4341DD28E070036987B /* AppDelegate.m */; };
+		6C40B4381DD28E070036987B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C40B4371DD28E070036987B /* ViewController.m */; };
+		6C40B43B1DD28E070036987B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C40B4391DD28E070036987B /* Main.storyboard */; };
+		6C40B43D1DD28E070036987B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C40B43C1DD28E070036987B /* Assets.xcassets */; };
+		6C40B4401DD28E070036987B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6C40B43E1DD28E070036987B /* LaunchScreen.storyboard */; };
+		6C40B44B1DD28E070036987B /* AGLiveIJKPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C40B44A1DD28E070036987B /* AGLiveIJKPlayerTests.m */; };
+		6C40B4561DD28E070036987B /* AGLiveIJKPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C40B4551DD28E070036987B /* AGLiveIJKPlayerUITests.m */; };
+		6C40B4651DD2959A0036987B /* AGLiveIJKPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C40B4641DD2959A0036987B /* AGLiveIJKPlayerController.m */; };
+		6C40B4681DD485590036987B /* LiveIJKPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C40B4671DD485590036987B /* LiveIJKPlayerView.m */; };
+		6C40B46A1DD489620036987B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C40B4691DD489620036987B /* AudioToolbox.framework */; };
+		6C40B46C1DD4896B0036987B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C40B46B1DD4896B0036987B /* AVFoundation.framework */; };
+		6C40B46E1DD489730036987B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C40B46D1DD489730036987B /* CoreMedia.framework */; };
+		6C40B4701DD4897D0036987B /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C40B46F1DD4897D0036987B /* CoreVideo.framework */; };
+		6C40B4721DD489860036987B /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C40B4711DD489860036987B /* libbz2.tbd */; };
+		6C40B4741DD4898C0036987B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C40B4731DD4898C0036987B /* libz.tbd */; };
+		6C40B4761DD489940036987B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C40B4751DD489940036987B /* MediaPlayer.framework */; };
+		6C40B4781DD4899E0036987B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C40B4771DD4899E0036987B /* MobileCoreServices.framework */; };
+		6C40B47A1DD489A50036987B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C40B4791DD489A50036987B /* OpenGLES.framework */; };
+		6C40B47C1DD489AB0036987B /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C40B47B1DD489AB0036987B /* VideoToolbox.framework */; };
+		6C40B47E1DD48C7E0036987B /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C40B47D1DD48C7E0036987B /* IJKMediaFramework.framework */; };
+		99DAFB7C46986337BDF993AE /* libPods-AGLiveIJKPlayerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A457ABFEAB6A667DFFF8FA08 /* libPods-AGLiveIJKPlayerTests.a */; };
+		EEA5F78C884C6B9C04D1C77D /* libPods-AGLiveIJKPlayerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AB74F72954AC28F1556DF0A /* libPods-AGLiveIJKPlayerUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C40B4471DD28E070036987B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C40B4251DD28E070036987B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C40B42C1DD28E070036987B;
+			remoteInfo = AGLiveIJKPlayer;
+		};
+		6C40B4521DD28E070036987B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C40B4251DD28E070036987B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C40B42C1DD28E070036987B;
+			remoteInfo = AGLiveIJKPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FAB7813A9C8DA4095E0746B /* Pods-AGLiveIJKPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGLiveIJKPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-AGLiveIJKPlayer/Pods-AGLiveIJKPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		4AB74F72954AC28F1556DF0A /* libPods-AGLiveIJKPlayerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AGLiveIJKPlayerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C40B42D1DD28E070036987B /* AGLiveIJKPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AGLiveIJKPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C40B4311DD28E070036987B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6C40B4331DD28E070036987B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6C40B4341DD28E070036987B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6C40B4361DD28E070036987B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6C40B4371DD28E070036987B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6C40B43A1DD28E070036987B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6C40B43C1DD28E070036987B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C40B43F1DD28E070036987B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6C40B4411DD28E070036987B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C40B4461DD28E070036987B /* AGLiveIJKPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AGLiveIJKPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C40B44A1DD28E070036987B /* AGLiveIJKPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGLiveIJKPlayerTests.m; sourceTree = "<group>"; };
+		6C40B44C1DD28E070036987B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C40B4511DD28E070036987B /* AGLiveIJKPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AGLiveIJKPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C40B4551DD28E070036987B /* AGLiveIJKPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AGLiveIJKPlayerUITests.m; sourceTree = "<group>"; };
+		6C40B4571DD28E070036987B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C40B4631DD2959A0036987B /* AGLiveIJKPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGLiveIJKPlayerController.h; sourceTree = "<group>"; };
+		6C40B4641DD2959A0036987B /* AGLiveIJKPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGLiveIJKPlayerController.m; sourceTree = "<group>"; };
+		6C40B4661DD485590036987B /* LiveIJKPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveIJKPlayerView.h; sourceTree = "<group>"; };
+		6C40B4671DD485590036987B /* LiveIJKPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveIJKPlayerView.m; sourceTree = "<group>"; };
+		6C40B4691DD489620036987B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		6C40B46B1DD4896B0036987B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6C40B46D1DD489730036987B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		6C40B46F1DD4897D0036987B /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		6C40B4711DD489860036987B /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		6C40B4731DD4898C0036987B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		6C40B4751DD489940036987B /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		6C40B4771DD4899E0036987B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		6C40B4791DD489A50036987B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		6C40B47B1DD489AB0036987B /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		6C40B47D1DD48C7E0036987B /* IJKMediaFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IJKMediaFramework.framework; sourceTree = "<group>"; };
+		6E581F2438708F32D61AD080 /* Pods-AGLiveIJKPlayerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGLiveIJKPlayerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AGLiveIJKPlayerUITests/Pods-AGLiveIJKPlayerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		771B94359B89D31A2010BEAA /* Pods-AGLiveIJKPlayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGLiveIJKPlayerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AGLiveIJKPlayerTests/Pods-AGLiveIJKPlayerTests.release.xcconfig"; sourceTree = "<group>"; };
+		A457ABFEAB6A667DFFF8FA08 /* libPods-AGLiveIJKPlayerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AGLiveIJKPlayerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4B5DB6A9B55A3D631CCA1AB /* Pods-AGLiveIJKPlayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGLiveIJKPlayerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AGLiveIJKPlayerTests/Pods-AGLiveIJKPlayerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A7DD7B58F8160ACC1965DACF /* Pods-AGLiveIJKPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGLiveIJKPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AGLiveIJKPlayer/Pods-AGLiveIJKPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		B053494093C2CCCA7D7772C3 /* Pods-AGLiveIJKPlayerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGLiveIJKPlayerUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AGLiveIJKPlayerUITests/Pods-AGLiveIJKPlayerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D347E9F8B9B6C21D783AFB58 /* libPods-AGLiveIJKPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AGLiveIJKPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C40B42A1DD28E070036987B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C40B47C1DD489AB0036987B /* VideoToolbox.framework in Frameworks */,
+				6C40B47A1DD489A50036987B /* OpenGLES.framework in Frameworks */,
+				6C40B4781DD4899E0036987B /* MobileCoreServices.framework in Frameworks */,
+				6C40B47E1DD48C7E0036987B /* IJKMediaFramework.framework in Frameworks */,
+				6C40B4761DD489940036987B /* MediaPlayer.framework in Frameworks */,
+				6C40B4741DD4898C0036987B /* libz.tbd in Frameworks */,
+				6C40B4721DD489860036987B /* libbz2.tbd in Frameworks */,
+				6C40B4701DD4897D0036987B /* CoreVideo.framework in Frameworks */,
+				6C40B46E1DD489730036987B /* CoreMedia.framework in Frameworks */,
+				6C40B46C1DD4896B0036987B /* AVFoundation.framework in Frameworks */,
+				6C40B46A1DD489620036987B /* AudioToolbox.framework in Frameworks */,
+				64404D75F62D61E62FAD503C /* libPods-AGLiveIJKPlayer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C40B4431DD28E070036987B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99DAFB7C46986337BDF993AE /* libPods-AGLiveIJKPlayerTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C40B44E1DD28E070036987B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEA5F78C884C6B9C04D1C77D /* libPods-AGLiveIJKPlayerUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F463F2BF8A70F08AE8070DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A7DD7B58F8160ACC1965DACF /* Pods-AGLiveIJKPlayer.debug.xcconfig */,
+				1FAB7813A9C8DA4095E0746B /* Pods-AGLiveIJKPlayer.release.xcconfig */,
+				A4B5DB6A9B55A3D631CCA1AB /* Pods-AGLiveIJKPlayerTests.debug.xcconfig */,
+				771B94359B89D31A2010BEAA /* Pods-AGLiveIJKPlayerTests.release.xcconfig */,
+				B053494093C2CCCA7D7772C3 /* Pods-AGLiveIJKPlayerUITests.debug.xcconfig */,
+				6E581F2438708F32D61AD080 /* Pods-AGLiveIJKPlayerUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		53C35765C6DF79F05F2F6B5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C40B47D1DD48C7E0036987B /* IJKMediaFramework.framework */,
+				6C40B47B1DD489AB0036987B /* VideoToolbox.framework */,
+				6C40B4791DD489A50036987B /* OpenGLES.framework */,
+				6C40B4771DD4899E0036987B /* MobileCoreServices.framework */,
+				6C40B4751DD489940036987B /* MediaPlayer.framework */,
+				6C40B4731DD4898C0036987B /* libz.tbd */,
+				6C40B4711DD489860036987B /* libbz2.tbd */,
+				6C40B46F1DD4897D0036987B /* CoreVideo.framework */,
+				6C40B46D1DD489730036987B /* CoreMedia.framework */,
+				6C40B46B1DD4896B0036987B /* AVFoundation.framework */,
+				6C40B4691DD489620036987B /* AudioToolbox.framework */,
+				D347E9F8B9B6C21D783AFB58 /* libPods-AGLiveIJKPlayer.a */,
+				A457ABFEAB6A667DFFF8FA08 /* libPods-AGLiveIJKPlayerTests.a */,
+				4AB74F72954AC28F1556DF0A /* libPods-AGLiveIJKPlayerUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6C40B4241DD28E070036987B = {
+			isa = PBXGroup;
+			children = (
+				6C40B42F1DD28E070036987B /* AGLiveIJKPlayer */,
+				6C40B4491DD28E070036987B /* AGLiveIJKPlayerTests */,
+				6C40B4541DD28E070036987B /* AGLiveIJKPlayerUITests */,
+				6C40B42E1DD28E070036987B /* Products */,
+				0F463F2BF8A70F08AE8070DF /* Pods */,
+				53C35765C6DF79F05F2F6B5A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6C40B42E1DD28E070036987B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C40B42D1DD28E070036987B /* AGLiveIJKPlayer.app */,
+				6C40B4461DD28E070036987B /* AGLiveIJKPlayerTests.xctest */,
+				6C40B4511DD28E070036987B /* AGLiveIJKPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C40B42F1DD28E070036987B /* AGLiveIJKPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				6C40B4331DD28E070036987B /* AppDelegate.h */,
+				6C40B4341DD28E070036987B /* AppDelegate.m */,
+				6C40B4361DD28E070036987B /* ViewController.h */,
+				6C40B4371DD28E070036987B /* ViewController.m */,
+				6C40B4631DD2959A0036987B /* AGLiveIJKPlayerController.h */,
+				6C40B4641DD2959A0036987B /* AGLiveIJKPlayerController.m */,
+				6C40B4661DD485590036987B /* LiveIJKPlayerView.h */,
+				6C40B4671DD485590036987B /* LiveIJKPlayerView.m */,
+				6C40B4391DD28E070036987B /* Main.storyboard */,
+				6C40B43C1DD28E070036987B /* Assets.xcassets */,
+				6C40B43E1DD28E070036987B /* LaunchScreen.storyboard */,
+				6C40B4411DD28E070036987B /* Info.plist */,
+				6C40B4301DD28E070036987B /* Supporting Files */,
+			);
+			path = AGLiveIJKPlayer;
+			sourceTree = "<group>";
+		};
+		6C40B4301DD28E070036987B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6C40B4311DD28E070036987B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6C40B4491DD28E070036987B /* AGLiveIJKPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6C40B44A1DD28E070036987B /* AGLiveIJKPlayerTests.m */,
+				6C40B44C1DD28E070036987B /* Info.plist */,
+			);
+			path = AGLiveIJKPlayerTests;
+			sourceTree = "<group>";
+		};
+		6C40B4541DD28E070036987B /* AGLiveIJKPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6C40B4551DD28E070036987B /* AGLiveIJKPlayerUITests.m */,
+				6C40B4571DD28E070036987B /* Info.plist */,
+			);
+			path = AGLiveIJKPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C40B42C1DD28E070036987B /* AGLiveIJKPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C40B45A1DD28E070036987B /* Build configuration list for PBXNativeTarget "AGLiveIJKPlayer" */;
+			buildPhases = (
+				8FFFA96B1441B9E289ADE36C /* [CP] Check Pods Manifest.lock */,
+				6C40B4291DD28E070036987B /* Sources */,
+				6C40B42A1DD28E070036987B /* Frameworks */,
+				6C40B42B1DD28E070036987B /* Resources */,
+				641437504F284F691545E3BF /* [CP] Embed Pods Frameworks */,
+				5A74429E3B0AFEFB6BE81E69 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AGLiveIJKPlayer;
+			productName = AGLiveIJKPlayer;
+			productReference = 6C40B42D1DD28E070036987B /* AGLiveIJKPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C40B4451DD28E070036987B /* AGLiveIJKPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C40B45D1DD28E070036987B /* Build configuration list for PBXNativeTarget "AGLiveIJKPlayerTests" */;
+			buildPhases = (
+				09F373F9C1B431A7061A2067 /* [CP] Check Pods Manifest.lock */,
+				6C40B4421DD28E070036987B /* Sources */,
+				6C40B4431DD28E070036987B /* Frameworks */,
+				6C40B4441DD28E070036987B /* Resources */,
+				EA0B994D8E02A9A01D5D8639 /* [CP] Embed Pods Frameworks */,
+				68DBEDDCA08BDD5D9DDBC8F7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C40B4481DD28E070036987B /* PBXTargetDependency */,
+			);
+			name = AGLiveIJKPlayerTests;
+			productName = AGLiveIJKPlayerTests;
+			productReference = 6C40B4461DD28E070036987B /* AGLiveIJKPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6C40B4501DD28E070036987B /* AGLiveIJKPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C40B4601DD28E070036987B /* Build configuration list for PBXNativeTarget "AGLiveIJKPlayerUITests" */;
+			buildPhases = (
+				B9C28024AFAD41978AA539C5 /* [CP] Check Pods Manifest.lock */,
+				6C40B44D1DD28E070036987B /* Sources */,
+				6C40B44E1DD28E070036987B /* Frameworks */,
+				6C40B44F1DD28E070036987B /* Resources */,
+				0A3EEBA03626A9FEB2A107C0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C40B4531DD28E070036987B /* PBXTargetDependency */,
+			);
+			name = AGLiveIJKPlayerUITests;
+			productName = AGLiveIJKPlayerUITests;
+			productReference = 6C40B4511DD28E070036987B /* AGLiveIJKPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C40B4251DD28E070036987B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = littledogboy;
+				TargetAttributes = {
+					6C40B42C1DD28E070036987B = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					6C40B4451DD28E070036987B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6C40B42C1DD28E070036987B;
+					};
+					6C40B4501DD28E070036987B = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 6C40B42C1DD28E070036987B;
+					};
+				};
+			};
+			buildConfigurationList = 6C40B4281DD28E070036987B /* Build configuration list for PBXProject "AGLiveIJKPlayer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C40B4241DD28E070036987B;
+			productRefGroup = 6C40B42E1DD28E070036987B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C40B42C1DD28E070036987B /* AGLiveIJKPlayer */,
+				6C40B4451DD28E070036987B /* AGLiveIJKPlayerTests */,
+				6C40B4501DD28E070036987B /* AGLiveIJKPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C40B42B1DD28E070036987B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C40B4401DD28E070036987B /* LaunchScreen.storyboard in Resources */,
+				6C40B43D1DD28E070036987B /* Assets.xcassets in Resources */,
+				6C40B43B1DD28E070036987B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C40B4441DD28E070036987B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C40B44F1DD28E070036987B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09F373F9C1B431A7061A2067 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0A3EEBA03626A9FEB2A107C0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AGLiveIJKPlayerUITests/Pods-AGLiveIJKPlayerUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A74429E3B0AFEFB6BE81E69 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AGLiveIJKPlayer/Pods-AGLiveIJKPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		641437504F284F691545E3BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AGLiveIJKPlayer/Pods-AGLiveIJKPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68DBEDDCA08BDD5D9DDBC8F7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AGLiveIJKPlayerTests/Pods-AGLiveIJKPlayerTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FFFA96B1441B9E289ADE36C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B9C28024AFAD41978AA539C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EA0B994D8E02A9A01D5D8639 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AGLiveIJKPlayerTests/Pods-AGLiveIJKPlayerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C40B4291DD28E070036987B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C40B4681DD485590036987B /* LiveIJKPlayerView.m in Sources */,
+				6C40B4381DD28E070036987B /* ViewController.m in Sources */,
+				6C40B4651DD2959A0036987B /* AGLiveIJKPlayerController.m in Sources */,
+				6C40B4351DD28E070036987B /* AppDelegate.m in Sources */,
+				6C40B4321DD28E070036987B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C40B4421DD28E070036987B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C40B44B1DD28E070036987B /* AGLiveIJKPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C40B44D1DD28E070036987B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C40B4561DD28E070036987B /* AGLiveIJKPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C40B4481DD28E070036987B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C40B42C1DD28E070036987B /* AGLiveIJKPlayer */;
+			targetProxy = 6C40B4471DD28E070036987B /* PBXContainerItemProxy */;
+		};
+		6C40B4531DD28E070036987B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C40B42C1DD28E070036987B /* AGLiveIJKPlayer */;
+			targetProxy = 6C40B4521DD28E070036987B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6C40B4391DD28E070036987B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C40B43A1DD28E070036987B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6C40B43E1DD28E070036987B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6C40B43F1DD28E070036987B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6C40B4581DD28E070036987B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6C40B4591DD28E070036987B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C40B45B1DD28E070036987B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7DD7B58F8160ACC1965DACF /* Pods-AGLiveIJKPlayer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AGLiveIJKPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = littledogboy.AGLiveIJKPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6C40B45C1DD28E070036987B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FAB7813A9C8DA4095E0746B /* Pods-AGLiveIJKPlayer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = AGLiveIJKPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = littledogboy.AGLiveIJKPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6C40B45E1DD28E070036987B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4B5DB6A9B55A3D631CCA1AB /* Pods-AGLiveIJKPlayerTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AGLiveIJKPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = littledogboy.AGLiveIJKPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AGLiveIJKPlayer.app/AGLiveIJKPlayer";
+			};
+			name = Debug;
+		};
+		6C40B45F1DD28E070036987B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 771B94359B89D31A2010BEAA /* Pods-AGLiveIJKPlayerTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = AGLiveIJKPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = littledogboy.AGLiveIJKPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AGLiveIJKPlayer.app/AGLiveIJKPlayer";
+			};
+			name = Release;
+		};
+		6C40B4611DD28E070036987B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B053494093C2CCCA7D7772C3 /* Pods-AGLiveIJKPlayerUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = AGLiveIJKPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = littledogboy.AGLiveIJKPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AGLiveIJKPlayer;
+			};
+			name = Debug;
+		};
+		6C40B4621DD28E070036987B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E581F2438708F32D61AD080 /* Pods-AGLiveIJKPlayerUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = AGLiveIJKPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = littledogboy.AGLiveIJKPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AGLiveIJKPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C40B4281DD28E070036987B /* Build configuration list for PBXProject "AGLiveIJKPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C40B4581DD28E070036987B /* Debug */,
+				6C40B4591DD28E070036987B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C40B45A1DD28E070036987B /* Build configuration list for PBXNativeTarget "AGLiveIJKPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C40B45B1DD28E070036987B /* Debug */,
+				6C40B45C1DD28E070036987B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C40B45D1DD28E070036987B /* Build configuration list for PBXNativeTarget "AGLiveIJKPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C40B45E1DD28E070036987B /* Debug */,
+				6C40B45F1DD28E070036987B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C40B4601DD28E070036987B /* Build configuration list for PBXNativeTarget "AGLiveIJKPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C40B4611DD28E070036987B /* Debug */,
+				6C40B4621DD28E070036987B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C40B4251DD28E070036987B /* Project object */;
+}
